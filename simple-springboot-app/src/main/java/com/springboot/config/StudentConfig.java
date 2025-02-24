@@ -16,7 +16,6 @@ public class StudentConfig implements WebMvcConfigurer {
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
 		// TODO Auto-generated method stub
-		//adding comment
 		registry.addInterceptor(requestHeaderInterceptor);
 	}
 }
